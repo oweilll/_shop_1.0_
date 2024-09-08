@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#808080"
+    >
+
+    <EditText
+        android:id="@+id/fio"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:background="@drawable/skrugl"
+        android:textColor="#FFDEAD"
+        android:hint="Введите свое ФИО"
+        android:textAlignment="center"
+        android:textColorHint="#FFDEAD"
+        />
+
+    <Button
+        android:id="@+id/next_to_fio"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text="Отправить"
+        android:textColor="#FFDEAD"
+        android:backgroundTint="#2F4F4F"
+        />
+
+
+</LinearLayout>

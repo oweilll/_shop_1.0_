@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ScrollViewAndSpinnerApp</string>
+    <string-array name="spinner_items">
+        <item>Элемент 1</item>
+        <item>Элемент 2</item>
+        <item>Элемент 3</item>
+        <item>Элемент 1</item>
+        <item>Элемент 2</item>
+        <item>Элемент 3</item>
+        <item>Элемент 1</item>
+        <item>Элемент 2</item>
+        <item>Элемент 3</item>
+        <item>Элемент 1</item>
+        <item>Элемент 2</item>
+        <item>Элемент 3</item>
+        <item>Элемент 1</item>
+        <item>Элемент 2</item>
+        <item>Элемент 3</item>
+        <item>Элемент 1</item>
+        <item>Элемент 2</item>
+        <item>Элемент 3</item>
+
+    </string-array>
+</resources>

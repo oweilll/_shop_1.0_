@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "50300551075",
+    "project_id": "flightscoreboard",
+    "storage_bucket": "flightscoreboard.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50300551075:android:12ad01aa5d56bfd36f2416",
+        "android_client_info": {
+          "package_name": "com.example.flightscorevoardv2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDasol4MPeye6Mkf8pJNpOhm7aIjoHgz5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

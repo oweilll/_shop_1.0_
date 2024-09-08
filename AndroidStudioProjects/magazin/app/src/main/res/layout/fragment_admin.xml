@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Вы вошли как админ"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/buttonAddProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить продукт"
+        style="@style/ButtonStyle"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextProductId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите ID продукта"
+        android:layout_marginTop="16dp"
+
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonDeleteProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Удалить продукт"
+        style="@style/ButtonStyle"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

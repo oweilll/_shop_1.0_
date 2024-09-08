@@ -1,0 +1,50 @@
+<!-- linear_layout_example.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFC0CB"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/nKnopka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="что то"
+        android:background="@color/accent_color"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="текст" />
+
+    <EditText
+        android:id="@+id/card_num"
+        android:layout_width="233dp"
+        android:layout_height="48dp"
+        android:hint="введите   номер   карты" />
+
+    <EditText
+        android:id="@+id/cvv_num"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:hint="cvv номер" />
+
+    <Button
+        android:id="@+id/onMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Отправить"
+        android:background="@drawable/my_custom_button"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="318dp"
+        android:layout_height="88dp"
+        android:src="@drawable/cat_2" />
+</LinearLayout>

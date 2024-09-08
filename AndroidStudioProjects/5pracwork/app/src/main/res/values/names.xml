@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="userName">
+        <item> Давид </item>
+        <item> Дана </item>
+        <item> Возгарь </item>
+        <item> Витомир </item>
+        <item> Всесвет </item>
+        <item> Годослав </item>
+        <item> Добран </item>
+        <item> Добронега </item>
+        <item> Авдий </item>
+        <item> Алипий </item>
+        <item> Амос </item>
+        <item> Амер </item>
+        <item> Алина </item>
+        <item> Данил </item>
+        <item> Татьяна </item>
+    </string-array>
+</resources>

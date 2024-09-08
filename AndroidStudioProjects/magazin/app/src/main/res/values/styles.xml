@@ -1,0 +1,39 @@
+<resources>
+
+    <style name="Widget.Theme.Magazin.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+        <!-- Use custom button style -->
+        <item name="buttonStyle">@style/ButtonStyle</item>
+    </style>
+
+    <style name="AppTheme.Dark" parent="Theme.MaterialComponents">
+        <item name="colorPrimary">@color/darkPrimary</item>
+        <item name="colorPrimaryVariant">@color/darkPrimaryDark</item>
+        <item name="colorSecondary">@color/darkAccent</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="android:windowBackground">@color/darkBackground</item>
+        <!-- Use custom button style -->
+        <item name="buttonStyle">@style/ButtonStyle</item>
+    </style>
+
+
+    <style name="ButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">17dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_margin">19dp</item>
+    </style>
+
+</resources>

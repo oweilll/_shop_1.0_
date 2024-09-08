@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <corners android:radius="20dp" /> <!-- Задаем радиус скругления углов -->
+    <solid android:color="#000000" /> <!-- Задаем цвет кнопки -->
+</shape>

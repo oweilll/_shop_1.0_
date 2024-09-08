@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#808080"
+    >
+
+
+    <TextView
+        android:id="@+id/fio_2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/skrugl"
+        android:textAlignment="center"
+        android:textColor="#FFDEAD"
+        android:textSize="18dp"
+        android:layout_marginBottom="1dp"/>
+    <TextView
+        android:id="@+id/alll"
+        android:hint="       Уточните дату и время
+                      для
+записи, для этого перейдите на следующее окно"
+
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textColorHint="#FFDEAD"
+        android:background="@drawable/skrugl"
+        android:textAlignment="center"
+        android:textColor="#FFDEAD"
+        android:textSize="17dp"
+        android:layout_marginBottom="70dp"
+        />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#2F4F4F"
+        android:text="Сделать запись"
+        android:textColor="#FFDEAD" />
+
+
+</LinearLayout>

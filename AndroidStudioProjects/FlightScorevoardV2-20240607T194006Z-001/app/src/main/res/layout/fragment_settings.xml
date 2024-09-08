@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SettingsFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите аэропорт"
+        android:textSize="18sp"
+        android:paddingBottom="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupAirport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButtonSheremetyevo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Шереметьево" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDomodedovo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Домодедово" />
+
+        <RadioButton
+            android:id="@+id/radioButtonVnukovo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Внуково" />
+    </RadioGroup>
+</LinearLayout>

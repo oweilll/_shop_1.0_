@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Рады Вас видеть,"
+        android:textAlignment="center"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textAlignment="center"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/textViewCustomerCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer Card Number"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:paddingTop="20dp" />
+
+    <TextView
+        android:id="@+id/textViewLoyaltyMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Это ваша карта лояльности, вводите ее при покупке товаров и накапливайте бонусы"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        android:visibility="gone" />
+</LinearLayout>
